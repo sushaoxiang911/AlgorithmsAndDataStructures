@@ -1,0 +1,11 @@
+s0
+s5
+g 34
+g 0
+i A|B  
+iB|B
+u A|C
+d B|C
+u B|C
+d A|B
+q

@@ -1,0 +1,20 @@
+PATH := /usr/um/gcc-4.7.0/bin:$(PATH)
+LD_LIBRARY_PATH := /usr/um/gcc-4.7.0/lib64
+LD_RUN_PATH := /usr/um/gcc-4.7.0/lib64
+all: cheatcheck
+cheatcheck: proj2.o document.o code.o datafunction.o radixsort.o duplicate.o
+	g++ proj2.o document.o code.o datafunction.o radixsort.o duplicate.o -o cheatcheck
+proj2.o: proj2.cpp
+	g++ -c proj2.cpp
+document.o: document.cpp
+	g++ -c document.cpp
+code.o: code.cpp
+	g++ -c code.cpp
+datafunction.o: datafunction.cpp
+	g++ -c datafunction.cpp
+radixsort.o: radixsort.cpp
+	g++ -c radixsort.cpp
+duplicate.o: duplicate.cpp
+	g++ -c duplicate.cpp
+clean:
+	rm -rf *.o cheatcheck

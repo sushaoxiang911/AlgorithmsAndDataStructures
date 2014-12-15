@@ -1,0 +1,13 @@
+s 0
+s 100
+s 30
+g 0
+g 100
+g 30
+i A|B
+d A|B
+u A|B
+i C|C
+d C|C
+u C|C
+q

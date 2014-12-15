@@ -1,0 +1,13 @@
+s 03
+s  -100
+g2
+g30  sas
+gaa
+dA      A|A
+iA|B
+u
+d
+i
+u   C|A   
+uC|C
+q

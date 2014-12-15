@@ -1,0 +1,10 @@
+i 12
+i -1
+d 0
+b 0
+e 0
+k qwertyuiop poiuytrewq
+r
+b 1
+s
+q

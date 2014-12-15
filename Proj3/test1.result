@@ -1,0 +1,31 @@
+18 entries loaded
+%15|TCP|Connection to client lost. (CID #8432)
+0|TCP|Bad packet received (CID #8432)
+3|TCP|Bad packet received (CID #12353)
+9|Thread|Thread #4 acquired lock #3
+6|Thread|Thread #12 blocking on join call to thread #4
+2|Thread|Suspending CPU 3
+12|Thread|Thread #4 closing.
+13|Thread|Interrupt event on CPU 3
+14|Thread|Thread #12 joined on thread #4
+17|Thread|Thread #10 attempted to grab lock #3 held by thread #4
+1|UI-PANE1|Window received focus.
+8|UI-PANE1|Click event served.
+5|UI-PANE2|Window received focus.
+%%0|11|07:02:10:13:00|PGM|Finished master election (master hostname=CAEN1695-p14).
+%9|04:25:21:53:21|Thread|Thread #4 acquired lock #3
+17|04:25:21:55:50|Thread|Thread #10 attempted to grab lock #3 held by thread #4
+%5|01:07:08:12:00|UI-PANE2|Window received focus.
+1|12:15:20:56:23|UI-PANE1|Window received focus.
+8|12:15:20:56:50|UI-PANE1|Click event served.
+%%0|11|07:02:10:13:00|PGM|Finished master election (master hostname=CAEN1695-p14).
+1|5|01:07:08:12:00|UI-PANE2|Window received focus.
+2|1|12:15:20:56:23|UI-PANE1|Window received focus.
+3|8|12:15:20:56:50|UI-PANE1|Click event served.
+%%%0|1|12:15:20:56:23|UI-PANE1|Window received focus.
+1|11|07:02:10:13:00|PGM|Finished master election (master hostname=CAEN1695-p14).
+2|8|12:15:20:56:50|UI-PANE1|Click event served.
+%%0|11|07:02:10:13:00|PGM|Finished master election (master hostname=CAEN1695-p14).
+1|1|12:15:20:56:23|UI-PANE1|Window received focus.
+2|8|12:15:20:56:50|UI-PANE1|Click event served.
+%

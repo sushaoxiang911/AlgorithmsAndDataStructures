@@ -1,0 +1,13 @@
+i 12
+i -1
+d 0
+b 0
+e 0
+k ||||!@#$%^&*
+k qwertyuiop poiuytrewq
+r
+b 1
+t ::::|::::
+t 12::::|00::::
+s
+q

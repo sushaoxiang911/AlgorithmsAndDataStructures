@@ -1,0 +1,12 @@
+c thread|aaa
+c kkk|thread
+k Thread
+k tHrEad
+r
+b 5
+e 1
+s
+r
+k !@#$%^&*()
+p
+q

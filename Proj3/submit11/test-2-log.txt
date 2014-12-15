@@ -1,0 +1,19 @@
+12:11:20:12:12|Thread|Bad packet received (CID #8432)
+12:11:20:12:12|Thread|Window received focus.
+12:11:20:12:12|thread|Suspending CPU 3
+12:11:20:12:12|Thread|Bad packet received (CID #12353)
+12:11:20:12:12|Thread|Sending query: “SELECT * FROM users”
+12:11:20:12:12|Thread|WiNdow received focus.
+12:11:20:12:12|Thread|ThrEad #12 blocking on join call to thread #4
+12:11:20:12:12|Thread|Query rEsults Received (“SELECT*FROM users”)
+12:11:20:12:12|Thread|Click event sErVed.
+12:11:20:12:12|Thread|Thread #4 acquired lock #3
+12:11:20:12:12|Thread|Beginning master election.
+12:11:20:12:12|Thread|asterm master eLecTion (master hostname=CAEN1695-p14).
+12:11:20:12:12|Thread|Thread #4 closing.
+12:11:20:12:12|Thread|Interrupt event on CPU 3
+12:11:20:12:12|Thread|Thread #12 Joined on teven thread #4
+12:11:20:12:12|Thread|ConnecTion to CliEnt lost. (CID #8432)
+12:11:20:12:12|Thread|AlArm evenT rAised by process (PID #5432)
+12:11:20:12:12|Thread|Thread#10attempted to grab lock#3 hEld by thread #4
+

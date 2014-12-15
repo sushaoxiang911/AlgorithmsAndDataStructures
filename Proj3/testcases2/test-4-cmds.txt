@@ -1,0 +1,16 @@
+c rzzz|vaaa
+i 11
+t ::::|01::::
+t 22::::|::::
+t 12::::|::::12
+p
+c rueopqw 09234 [a cm;la
+k lock#3
+k UI
+r
+p
+s
+b 32
+e 21
+p
+q

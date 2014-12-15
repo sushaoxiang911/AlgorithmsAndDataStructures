@@ -1,0 +1,78 @@
+#ifndef HEADFILE_H
+#define	HEADFILE_H
+
+#include "headfile.h"
+#include <string>
+#include <vector>
+#include <iostream>
+#include <utility>
+
+
+using namespace std;
+
+struct entry
+{
+	int id;
+        string timestamp;
+        string category;
+        string message;
+        string categorylower;
+};
+//DESCRIPTION:  STRUCT SAVES AN ENTRY FROM THE ENTRY FILE
+//		IT CONTAINS AN INTEGER ID
+//		A STRING TYPE TIMESTAMP
+//		A STRING TYPE CATEGORY
+//		A STRING TYPE ONE LINE MESSAGE
+//		A STRING TYPE OF THE LOWER CASE OF CATEGORY FOR THE COMPARISON
+
+struct keywordarray
+{
+	string keyword;
+	vector<entry*> indexarray;
+	bool issort;
+};
+//DESCRIPTION:  STRUCT THAT WILL BE SAVED AS CONTENTS OF HASH TABLE
+//		IT CONTAINS A STRING TYPE KEYWORD
+//		A ENTRY* TYPE VECTOR INDEXARRAY TO SAVE THE ENTRY THAT CONTAINS THIS KEYWORD
+//		A BOOL TYPT TO RECORD IF THE VECTOR IS UNIQUE
+
+
+
+void input(vector<entry*> &timestampdata,vector<entry*> &categorydata,vector<entry*> &data, string filename);
+//EFFECT:	INPUT ALL THE DATA FROM FILE TO THE THREE ENTRY* TYPE VECTORS FOR LATER USE
+//REQUIRED:	VECTOR<ENTRY*> TIMESTAMPDATA, VECTOR<ENTRY*> CATEGORYDATA, VECTOR<ENTRY*> DATA AND A STRING TYPE FILENAME
+//MODIFY:	THREE VECTOR<ENTRT*> TYPE DATA
+
+int hashstring(const string &s,int hash_size);
+//EFFECT:	GET THE HASH INDEX FOR A SPECIFIC KEYWORD
+//REQUIRED:	THE STRING TYPE KEYWORD AND AN INT TYPE SIZE OF HASHTABLE
+//MODIFY:	NONE
+
+void t_search(vector<entry*> &data,const string &timestamp1,const string &timestamp2,vector<entry*> &recent);
+//EFFECT:	SEARCH THE RESULT FOR TIMESTAMP BETWEEN TIMESTAMP1 AND TIMESTAMP2 AND SAVE IT TO THE RECENT VECTOR
+//REQUIRED:	THE SORTED VECTOR<ENTRY*> TYPE DATA, TWO BOUNDARY TIMESTAMP1 AND TIMESTAMP2 AND THE VECTOR<ENTRY*> RECENT
+//MODIFY:	VECTOR<ENTRY*> RENCENT
+
+string convertTolower(string str);
+//EFFECT:	CONVERT A STRING TO ITS LOWERCASE
+//		RETURN A STRING
+//REQUIRED:	STRING THAT IS GOING TO BE MODIFIED
+//MODIFY:	NONE
+
+void c_search(vector<entry*> &data,const string &category1,const string &category2,vector<entry*> &recent);
+//EFFECT:	
+
+void parse(entry* tempdata,vector<keywordarray*> hashtable[],int hashsize);
+
+void put_in(const string &keyword,vector<keywordarray*> hashtable[],int hashsize,entry* data);
+
+bool getTpair(pair<string, string> &temp, const string &input);
+
+bool getCpair(pair<string, string> &temp, const string &input);
+
+void parsekeyword(string &keysentence, vector<string> &result);
+
+vector<entry*> stl_intersection(vector<entry*> &data1, vector<entry*> &data2);
+
+
+#endif

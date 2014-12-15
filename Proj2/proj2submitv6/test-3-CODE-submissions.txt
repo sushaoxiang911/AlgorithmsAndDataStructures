@@ -1,0 +1,45 @@
+~~~~~~~~~~~~~~~~~~~~A~~~~~~~~~~~~~~~~~~~~
+if (building[Ptemp.location-len].sign=='P'||building[Ptemp.location-len].sign=='H')
+			{
+				end=Ptemp.location-len;
+				building[Ptemp.location-len].origin=1;
+				return 1;
+			}
+			if ((building[Ptemp.location-len].sign=='.'||building[Ptemp.location-len].sign=='^'||building[Ptemp.location-len].sign=='v')&&building[Ptemp.location-len].origin==0)
+			{
+				Myqueue.push(building[Ptemp.location-len]);
+				building[Ptemp.location-len].origin=1;
+//				cout<<"1"<<endl;
+			}My_CODE
+
+
+~~~~~~~~~~~~~~~~~~~~B~~~~~~~~~~~~~~~~~~~~
+
+
+if (building[Ptemp.location+1].sign=='P'||building[Ptemp.location+1].sign=='H')
+			{
+				end=Ptemp.location+1;
+				building[Ptemp.location+1].origin=2;				
+
+				return 1;
+			}
+
+My_CODE
+
+
+			if ((building[Ptemp.location+1].sign=='.'||building[Ptemp.location+1].sign=='^'||building[Ptemp.location+1].sign=='v')&&building[Ptemp.location+1].origin==0)
+			{
+
+                   			
+
+				Mystack.push(building[Ptemp.location+1]);
+				building[Ptemp.location+1].origin=2;
+			}
+
+~~~~~~~~~~~~~~~~~~~~C~~~~~~~~~~~~~~~~~~~~
+;My_CODE;;;   	;         [ f
+daasf{}{}{    
+   }
+ Mystack.push(building[Ptemp.location+1]);
+;
+{ {

@@ -1,0 +1,34 @@
+~~~~~~~~~~~~~~~~~~~~A~~~~~~~~~~~~~~~~~~~~
+
+while(start<_str . length() )
+                 	{
+//		cout<<"aa
+
+		"<<endl;
+		
+		for (i=start ; ;i<_str.length();i++)
+		{
+			if(_str[i]=='.\n'||_str[i]  ! = ' !'||_str[i]=='?')
+			{
+				break;
+			}
+		}
+		string temp;
+
+
+~~~~~~~~~~~~~~~~~~~~B~~~~~~~~~~~~~~~~~~~~
+while(start<_str.length( )  )
+	{
+//		cout<<"aa"
+			
+		<<endl    ;
+     		
+		for (i=start;i<_str.length();i++)
+		{
+			if(_str[i]!='; '||_str[i]!='{'||_str[i]=='}')
+			{
+				break; 
+			}
+		}
+		string   temp ;
+//		cout<<start<<"\n"<<endl;

@@ -1,0 +1,13 @@
+t ::::|24::::
+t ::::|00:00:00:00:00
+c thread|zzz
+c zzz|thread
+k Thread
+k thread
+r
+s
+b 4
+e 3
+s
+p
+q

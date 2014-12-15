@@ -1,0 +1,31 @@
+M
+8
+3
+# sample M mode input file, three 8x8 floors
+#floor 2
+WWWWWWWW
+W......H
+W..W.WWW
+W.W..W.W
+W..WW..W
+W......W
+W......W
+WWW.vWWW
+#floor 1
+WWWWWWWWcxzczx
+W......W
+W..W.WWW
+W.W..W.W
+W..WW..W
+W......W
+W^....SW
+WWW.vWWW
+#floor 0
+WWWWWWWW
+W..W.^WW
+W....WWW
+W..W...W
+P..W...W
+W...W..W
+W...W..W
+WWW...WW

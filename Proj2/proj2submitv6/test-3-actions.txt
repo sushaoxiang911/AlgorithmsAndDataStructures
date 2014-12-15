@@ -1,0 +1,16 @@
+g01
+g10
+s10
+s                 01
+s a
+g  sb
+iA|A
+cxzvcz
+u				A|C
+d	b|B
+d	B|B
+uA|B
+u 			A|B
+
+ffffffffdsafa
+q
